@@ -1,0 +1,16 @@
+Train Count,Eval Count,Test Count,Baseline_RF_All_Features_Predictions,Tuned_RF_All_Features_Predictions,Tuned_RF_Permutation_Features_Predictions,Baseline_XGB_All_Features_Predictions,Tuned_XGB_All_Features_Predictions,Tuned_XGB_Permutation_Features_Predictions,Tuned_XGB_RFECV_Features_Predictions,Baseline_RF_All_Features_Predictions_Failures,Tuned_RF_All_Features_Predictions_Failures,Tuned_RF_Permutation_Features_Predictions_Failures,Baseline_XGB_All_Features_Predictions_Failures,Tuned_XGB_All_Features_Predictions_Failures,Tuned_XGB_Permutation_Features_Predictions_Failures,Tuned_XGB_RFECV_Features_Predictions_Failures
+30000,25518,25432,,,,,,,,,,,,,,
+14004,2304,2322,0.01,0.01,0.01,0.02,0.02,0.02,0.02,34.0,28.0,33.0,49.0,39.0,43.0,39.0
+10233,1703,1732,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,4.0,1.0
+1288,34,48,0.1,0.1,0.12,0.1,0.1,0.1,0.1,5.0,5.0,6.0,5.0,5.0,5.0,5.0
+839,133,139,0.03,0.04,0.04,0.03,0.03,0.04,0.03,4.0,5.0,5.0,4.0,4.0,6.0,4.0
+782,23,30,0.03,0.03,0.03,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0
+588,23,22,0.36,0.36,0.32,0.91,0.41,0.64,0.41,8.0,8.0,7.0,20.0,9.0,14.0,9.0
+575,30,27,0.3,0.3,0.3,0.3,0.33,0.33,0.33,8.0,8.0,8.0,8.0,9.0,9.0,9.0
+521,74,76,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+445,67,71,0.01,0.01,0.01,0.01,0.01,0.01,0.01,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+436,66,68,0.04,0.04,0.03,0.03,0.03,0.03,0.03,3.0,3.0,2.0,2.0,2.0,2.0,2.0
+261,5,13,0.23,0.23,0.23,1.0,0.62,0.77,0.62,3.0,3.0,3.0,13.0,8.0,10.0,8.0
+14,12,10,0.2,0.1,0.1,0.2,0.2,0.1,0.2,2.0,1.0,1.0,2.0,2.0,1.0,2.0
+9,6,6,1.0,1.0,1.0,0.83,0.83,1.0,0.83,6.0,6.0,6.0,5.0,5.0,6.0,5.0
+5,2,4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
