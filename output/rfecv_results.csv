@@ -1,0 +1,22 @@
+Model,Optimal Number of Features,Selected Features,Number of input features,Model Type,Search Type
+Random Forest with all features,3,['Bwd Packet Length Std' 'Packet Length Std' 'Avg Packet Size'],77,RandomForestClassifier,RFECV
+Random Forest with selected features,3,['Bwd Packet Length Std' 'Packet Length Variance' 'Avg Packet Size'],14,RandomForestClassifier,RFECV
+XGBoost with all features,46,"['Protocol' 'Flow Duration' 'Total Fwd Packets' 'Total Backward Packets'
+ 'Fwd Packets Length Total' 'Bwd Packets Length Total'
+ 'Fwd Packet Length Max' 'Fwd Packet Length Min' 'Fwd Packet Length Mean'
+ 'Fwd Packet Length Std' 'Bwd Packet Length Max' 'Bwd Packet Length Min'
+ 'Bwd Packet Length Mean' 'Bwd Packet Length Std' 'Flow Bytes/s'
+ 'Flow Packets/s' 'Flow IAT Mean' 'Flow IAT Std' 'Flow IAT Max'
+ 'Flow IAT Min' 'Fwd IAT Total' 'Fwd IAT Max' 'Fwd IAT Min'
+ 'Bwd IAT Total' 'Bwd IAT Mean' 'Bwd IAT Std' 'Bwd IAT Min'
+ 'Fwd PSH Flags' 'Fwd Header Length' 'Bwd Header Length'
+ 'Packet Length Min' 'Packet Length Max' 'Packet Length Mean'
+ 'Packet Length Std' 'PSH Flag Count' 'ACK Flag Count' 'URG Flag Count'
+ 'Down/Up Ratio' 'Avg Packet Size' 'Init Fwd Win Bytes'
+ 'Init Bwd Win Bytes' 'Fwd Act Data Packets' 'Fwd Seg Size Min'
+ 'Active Std' 'Active Min' 'Idle Mean']",77,XGBClassifier,RFECV
+XGBoost with selected features,13,"['Fwd IAT Total' 'Fwd Packet Length Max' 'Bwd Packet Length Mean'
+ 'Bwd Packet Length Std' 'Bwd Packets Length Total'
+ 'Bwd Packet Length Max' 'Packet Length Max' 'Packet Length Mean'
+ 'Packet Length Std' 'Packet Length Variance' 'Avg Packet Size'
+ 'Fwd Header Length' 'Avg Fwd Segment Size']",14,XGBClassifier,RFECV
